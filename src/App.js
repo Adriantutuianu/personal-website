@@ -1,5 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
+import About from "./Sections/About";
+import Home from "./Sections/Home";
+import Projects from "./Sections/Projects";
+import Contact from "./Sections/Contact";
 
 function App() {
   return (
@@ -18,6 +22,10 @@ function App() {
           Learn React
         </a>
       </header>
+      <About />
+      <Home />
+      <Projects />
+      <Contact />
     </div>
   );
 }
