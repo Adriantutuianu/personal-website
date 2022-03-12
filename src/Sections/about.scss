@@ -1,3 +1,9 @@
 #about {
   background: red;
+  .text {
+    color: aquamarine;
+    &:hover {
+      color: blue;
+    }
+  }
 }
