@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import About from "./Sections/About";
 import Home from "./Sections/Home";
 import Projects from "./Sections/Projects";
