@@ -1,11 +1,13 @@
 import React from "react";
 import "./projects.scss";
+import { Element } from "react-scroll";
 
 const Projects = () => {
   return (
-    <section id="projects" className="section">
+    <Element name="projects-section" id="projects" className="section">
+      {" "}
       Projects
-    </section>
+    </Element>
   );
 };
 
