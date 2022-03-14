@@ -1,11 +1,13 @@
 import React from "react";
 import "./contact.scss";
+import { Element } from "react-scroll";
 
 const Contact = () => {
   return (
-    <section id="contact" className="section">
+    <Element name="contact-section" id="contact" className="section">
+      {" "}
       Contact
-    </section>
+    </Element>
   );
 };
 

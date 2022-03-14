@@ -24,6 +24,16 @@ const Header = () => {
       >
         Home
       </Link>{" "}
+      <Link
+        activeClass="active"
+        to="contact-section"
+        spy={true}
+        smooth={true}
+        duration={900}
+        delay={100}
+      >
+        Contact
+      </Link>{" "}
     </div>
   );
 };
