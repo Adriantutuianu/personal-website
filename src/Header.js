@@ -1,19 +1,10 @@
 import React from "react";
 import { Link } from "react-scroll";
+import "./header.scss";
 
 const Header = () => {
   return (
-    <div>
-      <Link
-        activeClass="active"
-        to="about-section"
-        spy={true}
-        smooth={true}
-        duration={900}
-        delay={100}
-      >
-        About
-      </Link>{" "}
+    <header className="header">
       <Link
         activeClass="active"
         to="home-section"
@@ -26,13 +17,13 @@ const Header = () => {
       </Link>{" "}
       <Link
         activeClass="active"
-        to="contact-section"
+        to="about-section"
         spy={true}
         smooth={true}
         duration={900}
         delay={100}
       >
-        Contact
+        About
       </Link>{" "}
       <Link
         activeClass="active"
@@ -44,7 +35,17 @@ const Header = () => {
       >
         Projects
       </Link>{" "}
-    </div>
+      <Link
+        activeClass="active"
+        to="contact-section"
+        spy={true}
+        smooth={true}
+        duration={900}
+        delay={100}
+      >
+        Contact
+      </Link>{" "}
+    </header>
   );
 };
 
