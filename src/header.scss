@@ -5,4 +5,12 @@
   background: burlywood;
   height: var(--header-bar-height);
   width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navigation-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
 }
