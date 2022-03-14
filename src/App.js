@@ -1,16 +1,11 @@
 import "./App.scss";
-import About from "./Sections/About";
-import Home from "./Sections/Home";
-import Projects from "./Sections/Projects";
-import Contact from "./Sections/Contact";
+
+import Header from "./Header";
 
 function App() {
   return (
     <div className="App">
-      <About />
-      <Home />
-      <Projects />
-      <Contact />
+      <Header />
     </div>
   );
 }
