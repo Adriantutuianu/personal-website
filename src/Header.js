@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 import "./header.scss";
 
-const Header = () => {
+const Header = ({ setTitle }) => {
   return (
     <header className="header">
       <div className="content-wrap">
@@ -15,6 +15,7 @@ const Header = () => {
             smooth={true}
             duration={900}
             delay={100}
+            onClick={() => setTitle("Home - Adrian Tut")}
           >
             Home
           </Link>{" "}
@@ -25,6 +26,7 @@ const Header = () => {
             smooth={true}
             duration={900}
             delay={100}
+            onClick={() => setTitle("About - Adrian Tut")}
           >
             About
           </Link>{" "}
@@ -35,6 +37,7 @@ const Header = () => {
             smooth={true}
             duration={900}
             delay={100}
+            onClick={() => setTitle("Projects - Adrian Tut")}
           >
             Projects
           </Link>{" "}
@@ -45,6 +48,7 @@ const Header = () => {
             smooth={true}
             duration={900}
             delay={100}
+            onClick={() => setTitle("Contact - Adrian Tut")}
           >
             Contact
           </Link>{" "}
