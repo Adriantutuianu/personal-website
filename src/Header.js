@@ -1,13 +1,20 @@
 import React from "react";
-import About from "./Sections/About";
-import Home from "./Sections/Home";
-import Projects from "./Sections/Projects";
-import Contact from "./Sections/Contact";
+
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
     <div>
-      <About />
+      <Link
+        activeClass="active"
+        to="about-section"
+        spy={true}
+        smooth={true}
+        duration={900}
+        delay={100}
+      >
+        About
+      </Link>{" "}
       <Home />
       <Projects />
       <Contact />
