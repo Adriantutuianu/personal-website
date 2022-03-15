@@ -2,7 +2,7 @@
   position: fixed;
   top: 0px;
   left: 0px;
-  background: burlywood;
+  background: var(--fourth-color);
   height: var(--header-bar-height);
   width: 100%;
   display: flex;
@@ -17,7 +17,7 @@
     cursor: pointer;
     transition: 0.2s ease-in;
     &:hover {
-      color: red;
+      color: var(--third-color);
     }
   }
 }
