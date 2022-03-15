@@ -6,7 +6,7 @@ import About from "./Sections/About";
 import Home from "./Sections/Home";
 import Projects from "./Sections/Projects";
 import Contact from "./Sections/Contact";
-
+import Footer from "./Footer";
 function App() {
   const [title, setTitle] = useState("Adrian Tut - Web & Software Development");
 
@@ -20,6 +20,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <Footer className="footer" />
     </div>
   );
 }
