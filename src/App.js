@@ -20,7 +20,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
-      <Footer className="footer" />
+      <Footer />
     </div>
   );
 }

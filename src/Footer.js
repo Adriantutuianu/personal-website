@@ -3,7 +3,10 @@ import "./footer.scss";
 
 const Footer = () => {
   return (
-    <div> @{new Date().getFullYear()} - All rights reserved @Adrian Tut.</div>
+    <footer>
+      {" "}
+      @{new Date().getFullYear()} - All rights reserved @Adrian Tut.
+    </footer>
   );
 };
 
