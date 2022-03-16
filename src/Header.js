@@ -6,76 +6,50 @@ const Header = ({ setTitle }) => {
   const menu = [
     {
       id: 1,
-      name: "home-section",
+      path: "home-section",
       title: "Home - Adrian Tut",
+      name: "Home",
     },
     {
       id: 2,
-      name: "about-section",
+      path: "about-section",
       title: "About - Adrian Tut",
+      name: "About",
     },
     {
       id: 3,
-      name: "projects-section",
+      path: "projects-section",
       title: "Projects - Adrian Tut",
+      name: "Projects",
     },
     {
       id: 4,
-      name: "contact-section",
+      path: "contact-section",
       title: "Contact - Adrian Tut",
+      name: "Contact",
     },
   ];
+
+  const navigationMenu = menu.map((item) => (
+    <Link
+      key={item.id}
+      activeClass="active"
+      to={item.path}
+      spy={true}
+      smooth={true}
+      duration={900}
+      delay={100}
+      onClick={() => setTitle(item.title)}
+    >
+      {item.name}
+    </Link>
+  ));
 
   return (
     <header className="header">
       <div className="content-wrap">
         <p className="logo">LOGO</p>
-        <nav className="navigation-menu ">
-          <Link
-            activeClass="active"
-            to="home-section"
-            spy={true}
-            smooth={true}
-            duration={900}
-            delay={100}
-            onClick={() => setTitle("Home - Adrian Tut")}
-          >
-            Home
-          </Link>{" "}
-          <Link
-            activeClass="active"
-            to="about-section"
-            spy={true}
-            smooth={true}
-            duration={900}
-            delay={100}
-            onClick={() => setTitle("About - Adrian Tut")}
-          >
-            About
-          </Link>{" "}
-          <Link
-            activeClass="active"
-            to="projects-section"
-            spy={true}
-            smooth={true}
-            duration={900}
-            delay={100}
-            onClick={() => setTitle("Projects - Adrian Tut")}
-          >
-            Projects
-          </Link>{" "}
-          <Link
-            activeClass="active"
-            to="contact-section"
-            spy={true}
-            smooth={true}
-            duration={900}
-            delay={100}
-            onClick={() => setTitle("Contact - Adrian Tut")}
-          >
-            Contact
-          </Link>{" "}
-        </nav>
+        <nav className="navigation-menu ">{navigationMenu}</nav>
       </div>
     </header>
   );
