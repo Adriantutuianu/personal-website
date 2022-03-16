@@ -2,10 +2,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--primary-color);
   height: 60px;
   border-top: 1px solid black;
-  color: var(--fifth-color);
+  background: var(--primary-color);
+  color: var(--fourth-color);
 
   span {
     color: var(--third-color);
