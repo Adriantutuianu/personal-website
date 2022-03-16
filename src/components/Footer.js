@@ -4,10 +4,8 @@ import "./footer.scss";
 const Footer = () => {
   return (
     <footer>
-      <text className="footer-text">
-        @{new Date().getFullYear()} - All rights reserved
-      </text>
-      <span>@Adrian Tut.</span>
+      Copyrights © - {new Date().getFullYear()}
+      <span>@Adrian Tut</span> .
     </footer>
   );
 };

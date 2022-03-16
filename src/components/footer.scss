@@ -6,10 +6,9 @@ footer {
   height: 60px;
   border-top: 1px solid black;
   color: var(--fifth-color);
-  .footer-text {
-    margin-right: 5px;
-  }
+
   span {
     color: var(--third-color);
+    margin: 0 5px;
   }
 }
