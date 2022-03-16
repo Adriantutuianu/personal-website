@@ -8,16 +8,3 @@
   display: flex;
   align-items: center;
 }
-
-.navigation-menu {
-  display: flex;
-  justify-content: space-between;
-  width: 30%;
-  a {
-    cursor: pointer;
-    transition: 0.2s ease-in;
-    &:hover {
-      color: var(--third-color);
-    }
-  }
-}
