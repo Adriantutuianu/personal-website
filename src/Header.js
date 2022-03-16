@@ -3,6 +3,29 @@ import { Link } from "react-scroll";
 import "./header.scss";
 
 const Header = ({ setTitle }) => {
+  const menu = [
+    {
+      id: 1,
+      name: "home-section",
+      title: "Home - Adrian Tut",
+    },
+    {
+      id: 2,
+      name: "about-section",
+      title: "About - Adrian Tut",
+    },
+    {
+      id: 3,
+      name: "projects-section",
+      title: "Projects - Adrian Tut",
+    },
+    {
+      id: 4,
+      name: "contact-section",
+      title: "Contact - Adrian Tut",
+    },
+  ];
+
   return (
     <header className="header">
       <div className="content-wrap">
