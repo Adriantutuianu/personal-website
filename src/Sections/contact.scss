@@ -1,3 +1,21 @@
 #contact {
   background: var(--fourth-color);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+span {
+  background-color: var(--secondary-color);
+  color: var(--third-color);
+  margin: 0 5px;
 }
