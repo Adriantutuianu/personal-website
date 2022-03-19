@@ -19,6 +19,14 @@ const Contact = () => {
           <MailImage />
           <span>adrian.tut20@yahoo.com</span>
         </a>
+        <a
+          className="item item--linkedin"
+          href="https://www.linkedin.com/in/adrian-tutuianu"
+          title="LinkedIn"
+        >
+          <LinkedInImage />
+          <span>/in/adriantutuianu</span>
+        </a>
       </div>
     </Element>
   );
