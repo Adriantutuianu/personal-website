@@ -3,6 +3,7 @@ import "./contact.scss";
 import { Element } from "react-scroll";
 import { ReactComponent as MailImage } from "../icons/mail-image.svg";
 import { ReactComponent as LinkedInImage } from "../icons/linkedin-logo.svg";
+import { ReactComponent as GithubImage } from "../icons/github.svg";
 
 const Contact = () => {
   return (
@@ -26,6 +27,14 @@ const Contact = () => {
         >
           <LinkedInImage />
           <span>/in/adriantutuianu</span>
+        </a>
+        <a
+          className="item item--github"
+          href="https://github.com/Adriantutuianu"
+          title="github"
+        >
+          <GithubImage />
+          <span>Adriantutuianu</span>
         </a>
       </div>
     </Element>
