@@ -22,12 +22,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      &--phone {
-        svg {
-          max-width: 20px;
-          transition: all 0.2s ease-in 0s;
-        }
-      }
+
       &--mail {
         svg {
           max-width: 20px;
