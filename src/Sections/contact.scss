@@ -18,12 +18,21 @@
     }
   }
   .contact-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: flex-start;
+    margin: 0 auto;
+    margin-top: 15px;
+
     .item {
       display: flex;
       justify-content: center;
       align-items: center;
+      margin-top: 15px;
       &--mail {
         svg {
+          width: 100%;
           max-width: 20px;
           transition: all 0.2s ease-in 0s;
           margin-right: 10px;
