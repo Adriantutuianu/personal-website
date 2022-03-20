@@ -9,4 +9,10 @@
   align-items: center;
   box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.15);
   z-index: 100;
+  .content-wrap {
+    .logo {
+      height: auto;
+      max-width: 40px;
+    }
+  }
 }
