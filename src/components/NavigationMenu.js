@@ -45,7 +45,7 @@ const NavigationMenu = ({ setTitle }) => {
     </Link>
   ));
 
-  return <nav className="navigation-menu ">{navigationMenu}</nav>;
+  return <nav className="navigation-menu">{navigationMenu}</nav>;
 };
 
 export default NavigationMenu;
