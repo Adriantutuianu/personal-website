@@ -20,7 +20,7 @@ const Contact = () => {
           rel="noreferrer"
         >
           <MailImage />
-          <span>Mail me</span>
+          <span>Contact Adrian now</span>
         </a>
         <a
           className="item item--linkedin"
@@ -40,7 +40,7 @@ const Contact = () => {
           rel="noreferrer"
         >
           <GithubImage />
-          <span>Adriantutuianu</span>
+          <span>/adriantutuianu</span>
         </a>
       </div>
     </Element>
