@@ -30,27 +30,21 @@
       justify-content: center;
       align-items: center;
       margin-top: 15px;
+      color: var(--primary-color);
+      svg {
+        width: 100%;
+        max-width: 20px;
+        transition: all 0.2s ease-in 0s;
+        margin-right: 10px;
+      }
       &--mail {
         svg {
-          width: 100%;
-          max-width: 20px;
-          transition: all 0.2s ease-in 0s;
-          margin-right: 10px;
+          color: black;
         }
       }
       &--linkedin {
-        svg {
-          max-width: 20px;
-          transition: all 0.2s ease-in 0s;
-          margin-right: 10px;
-        }
       }
       &--github {
-        svg {
-          max-width: 20px;
-          transition: all 0.2s ease-in 0s;
-          margin-right: 10px;
-        }
       }
     }
   }

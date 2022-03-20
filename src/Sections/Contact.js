@@ -1,8 +1,8 @@
 import React from "react";
 import "./contact.scss";
 import { Element } from "react-scroll";
-import { ReactComponent as MailImage } from "../icons/mail-image.svg";
-import { ReactComponent as LinkedInImage } from "../icons/linkedin-logo.svg";
+import { ReactComponent as MailImage } from "../icons/mail.svg";
+import { ReactComponent as LinkedInImage } from "../icons/linkedin.svg";
 import { ReactComponent as GithubImage } from "../icons/github.svg";
 
 const Contact = () => {
@@ -14,18 +14,20 @@ const Contact = () => {
       <div className="contact-wrap">
         <a
           className="item item--mail"
-          href="mailto:adrian.tut20@yahoo.com?subject=Contact Adrian"
-          title="Email Adrian at adrian.tut20@yahoo.com"
+          href="mailto:office@yahoo.com?subject=Contact Adrian"
+          title="Email Adrian at office@yahoo.com"
           target="_blank"
+          rel="noreferrer"
         >
           <MailImage />
-          <span>adrian.tut20@yahoo.com</span>
+          <span>Mail me</span>
         </a>
         <a
           className="item item--linkedin"
           href="https://www.linkedin.com/in/adrian-tutuianu"
           title="LinkedIn"
           target="_blank"
+          rel="noreferrer"
         >
           <LinkedInImage />
           <span>/in/adriantutuianu</span>
@@ -35,6 +37,7 @@ const Contact = () => {
           href="https://github.com/Adriantutuianu"
           title="github"
           target="_blank"
+          rel="noreferrer"
         >
           <GithubImage />
           <span>Adriantutuianu</span>
