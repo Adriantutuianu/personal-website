@@ -16,6 +16,7 @@ const Contact = () => {
           className="item item--mail"
           href="mailto:adrian.tut20@yahoo.com?subject=Contact Adrian"
           title="Email Adrian at adrian.tut20@yahoo.com"
+          target="_blank"
         >
           <MailImage />
           <span>adrian.tut20@yahoo.com</span>
@@ -24,6 +25,7 @@ const Contact = () => {
           className="item item--linkedin"
           href="https://www.linkedin.com/in/adrian-tutuianu"
           title="LinkedIn"
+          target="_blank"
         >
           <LinkedInImage />
           <span>/in/adriantutuianu</span>
@@ -32,6 +34,7 @@ const Contact = () => {
           className="item item--github"
           href="https://github.com/Adriantutuianu"
           title="github"
+          target="_blank"
         >
           <GithubImage />
           <span>Adriantutuianu</span>
