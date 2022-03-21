@@ -20,7 +20,7 @@ function App() {
       </Helmet>
       <Header setTitle={setTitle} />
       <Home setTitle={setTitle} />
-      <About />
+      <About setTitle={setTitle} />
       <Projects />
       <Contact />
       <Footer />
