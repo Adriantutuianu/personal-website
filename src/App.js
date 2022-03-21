@@ -21,7 +21,7 @@ function App() {
       <Header setTitle={setTitle} />
       <Home setTitle={setTitle} />
       <About setTitle={setTitle} />
-      <Projects />
+      <Projects setTitle={setTitle} />
       <Contact />
       <Footer />
     </div>

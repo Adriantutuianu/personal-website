@@ -12,6 +12,7 @@ const About = ({ setTitle }) => {
         destination={"projects-section"}
         title={"Projects - Adrian Tut"}
         setTitle={setTitle}
+        uniqueKey={11}
       />
     </Element>
   );

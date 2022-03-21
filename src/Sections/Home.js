@@ -12,6 +12,7 @@ const Home = ({ setTitle }) => {
         destination={"about-section"}
         title={"About - Adrian Tut"}
         setTitle={setTitle}
+        uniqueKey={10}
       />
     </Element>
   );

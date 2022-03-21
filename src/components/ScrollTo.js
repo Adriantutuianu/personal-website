@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-scroll";
 
-const ScrollTo = ({ destination, title, setTitle }) => {
+const ScrollTo = ({ destination, title, setTitle, uniqueKey }) => {
   return (
     <Link
-      key={0}
+      key={uniqueKey}
       to={destination}
       spy={true}
       smooth={true}
