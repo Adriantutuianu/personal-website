@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import { ReactComponent as ArrowScroll } from "../icons/double-arrow-down.svg";
+import "./scrollTo.scss";
 
 const ScrollTo = ({ destination, title, setTitle, uniqueKey }) => {
   return (
@@ -13,7 +14,7 @@ const ScrollTo = ({ destination, title, setTitle, uniqueKey }) => {
       delay={100}
       onClick={() => setTitle(title)}
     >
-      <ArrowScroll />
+      <ArrowScroll className="arrow-scroll" />
     </Link>
   );
 };

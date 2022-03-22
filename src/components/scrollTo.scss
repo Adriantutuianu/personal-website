@@ -1,0 +1,11 @@
+.arrow-scroll {
+  transform: scale(1.7) translateX(-50%);
+  transition: 0.2s ease-in;
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  cursor: pointer;
+  &:hover {
+    transform: translateX(-50%) translateY(3px) scale(1.7);
+  }
+}
