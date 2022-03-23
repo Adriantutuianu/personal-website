@@ -10,6 +10,12 @@
     transition: 0.2s ease-in;
     position: relative;
 
+    &.active {
+      background-color: var(--secondary-color);
+      color: var(--third-color);
+      padding: 3px 10px;
+    }
+
     &::before {
       content: "";
       width: 0;
