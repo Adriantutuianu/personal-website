@@ -2,7 +2,22 @@
   margin-top: var(--header-bar-height);
   background: var(--primary-color);
   color: var(--fourth-color);
-  h1 {
-    color: var(--third-color);
+  display: flex;
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 48%;
+    padding-left: 20px;
+    .title {
+      color: var(--third-color);
+    }
+    .sub-title {
+      margin-bottom: 40%;
+    }
+  }
+  .right-side {
+    width: 48%;
   }
 }
