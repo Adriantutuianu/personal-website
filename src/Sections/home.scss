@@ -1,8 +1,8 @@
 #home {
-  margin-top: var(--header-bar-height);
+  display: flex;
+  padding-top: var(--header-bar-height);
   background: var(--primary-color);
   color: var(--fourth-color);
-  display: flex;
   .left-side {
     display: flex;
     flex-direction: column;
