@@ -6,18 +6,15 @@ import ScrollTo from "../components/ScrollTo";
 const About = ({ setTitle }) => {
   return (
     <Element name="about-section" id="about" className="section">
-      <div className="text-content">
+      <div className="left-side">
         {" "}
-        <span>Me, Myself & I </span>
+        <h2>Me, Myself & I </h2>
         <p>
           I am 33 years old and last year I made a decision that I am proud of -
           decided and committed to absorb as much information as I can about
           building projects.
         </p>
-        <p>
-          I have started to learn HTML5 , CSS , SCSS , JAVASCRIPT and ending
-          with REACT .
-        </p>
+        <p>I have started to learn HTML, CSS & SCSS, JAVASCRIPT and REACT.</p>
         <p>
           You can see the progress of my journey on Github and on LinkedIn all
           certificates that I gained.
@@ -32,6 +29,7 @@ const About = ({ setTitle }) => {
           projects with positive people.
         </p>
       </div>
+      <div className="right-side">RIGHT SIDE</div>
       <ScrollTo
         destination={"projects-section"}
         title={"Projects - Adrian Tut"}
