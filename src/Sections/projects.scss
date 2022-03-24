@@ -1,3 +1,6 @@
 #projects {
-  background: red;
+  background: var(--primary-color);
+  .arrow-scroll {
+    color: var(--fourth-color);
+  }
 }
