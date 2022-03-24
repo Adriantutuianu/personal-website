@@ -8,9 +8,9 @@ const Home = ({ setTitle }) => {
     <Element name="home-section" id="home" className="section">
       {" "}
       <div className="left-side">
-        <h1 className="title">Hi, I am Adrian.</h1>
+        <h1 className="title">Hi, I'm Adrian.</h1>
         <h2 className="sub-title">
-          I am a web developer located in Sheffield.
+          A passionate web developer based in Sheffield.
         </h2>
       </div>
       <div className="right-side">Right Side</div>
