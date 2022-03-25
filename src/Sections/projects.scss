@@ -4,15 +4,17 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 25px 25px;
+    gap: 40px 40px;
 
-    background-color: var(--fourth-color);
-    height: 85%;
-    width: 85%;
-    // grid-template-areas:
-    //   ". . ."
-    //   ". . .";
+    margin: 100px auto 100px;
+    width: 80%;
+    height: 80%;
   }
+  .item {
+    background-color: var(--fourth-color);
+    min-height: 200px;
+  }
+
   .arrow-scroll {
     color: var(--fourth-color);
   }
