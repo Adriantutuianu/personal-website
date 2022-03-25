@@ -1,5 +1,18 @@
 #projects {
   background: var(--primary-color);
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 25px 25px;
+
+    background-color: var(--fourth-color);
+    height: 85%;
+    width: 85%;
+    // grid-template-areas:
+    //   ". . ."
+    //   ". . .";
+  }
   .arrow-scroll {
     color: var(--fourth-color);
   }
