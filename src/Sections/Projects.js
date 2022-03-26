@@ -7,14 +7,14 @@ const Projects = ({ setTitle }) => {
   return (
     <Element name="projects-section" id="projects" className="section">
       {" "}
-      <div className="projects-grid">
-        <div class="item item1">Item 1</div>
-        <div class="item item2">Item 2</div>
-        <div class="item item3">Item 3</div>
-        <div class="item item4">Item 4</div>
-        <div class="item item5">Item 5</div>
-        <div class="item item6">Item 6</div>
-      </div>
+      <ul className="projects-grid">
+        <li class="item item1">Item 1</li>
+        <li class="item item2">Item 2</li>
+        <li class="item item3">Item 3</li>
+        <li class="item item4">Item 4</li>
+        <li class="item item5">Item 5</li>
+        <li class="item item6">Item 6</li>
+      </ul>
       <ScrollTo
         destination={"contact-section"}
         title={"Contact - Adrian Tut"}
