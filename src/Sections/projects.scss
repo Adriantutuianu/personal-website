@@ -10,10 +10,20 @@
     max-width: 1000px;
     margin: 50px auto;
     padding: 0 10px;
+    list-style-type: none;
   }
   .item {
     background-color: var(--fourth-color);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
     min-height: 200px;
+    height: 100%;
+    width: 100%;
+    font-weight: lighter;
+    transition: all 0.2s ease-in 0s;
+    font-size: 14px;
   }
 
   .arrow-scroll {
