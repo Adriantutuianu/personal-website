@@ -6,7 +6,7 @@
 
   .right-side {
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
     height: 100%;
     width: 48%;
@@ -14,8 +14,8 @@
     .title {
       color: var(--third-color);
     }
-    .sub-title {
-      margin-bottom: 40%;
+    div[aria-label="animation"] {
+      margin: unset !important;
     }
   }
   .left-side {

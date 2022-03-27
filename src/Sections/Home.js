@@ -4,12 +4,22 @@ import { Element } from "react-scroll";
 import ScrollTo from "../components/ScrollTo";
 import Lottie from "react-lottie";
 import * as animationData from "../icons/99312-developer-skills.json";
+import * as smartBoy from "../icons/21045-smartboy-2.json";
 
 const Home = ({ setTitle }) => {
   const defaultOptions = {
     loop: true,
     autoplay: true,
     animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
+  const defaultAnimation = {
+    loop: true,
+    autoplay: true,
+    animationData: smartBoy,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
     },
@@ -22,10 +32,13 @@ const Home = ({ setTitle }) => {
         <Lottie options={defaultOptions} height={400} width={400} />
       </div>
       <div className="right-side">
-        <h1 className="title">Hi, I'm Adrian.</h1>
-        <h2 className="sub-title">
-          A passionate web developer based in Sheffield.
-        </h2>
+        <Lottie options={defaultAnimation} height={100} width={100} />
+        <div className="text-wrap">
+          <h1 className="title">Hi, I'm Adrian.</h1>
+          <h2 className="sub-title">
+            A passionate web developer based in Sheffield.
+          </h2>
+        </div>
       </div>
       <ScrollTo
         destination={"about-section"}
