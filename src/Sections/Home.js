@@ -3,7 +3,7 @@ import "./home.scss";
 import { Element } from "react-scroll";
 import ScrollTo from "../components/ScrollTo";
 import Lottie from "react-lottie";
-import * as animationData from "../icons/39610-design.json";
+import * as animationData from "../icons/99312-developer-skills.json";
 
 const Home = ({ setTitle }) => {
   const defaultOptions = {
@@ -14,6 +14,7 @@ const Home = ({ setTitle }) => {
       preserveAspectRatio: "xMidYMid slice",
     },
   };
+
   return (
     <Element name="home-section" id="home" className="section">
       {" "}
@@ -23,8 +24,9 @@ const Home = ({ setTitle }) => {
           A passionate web developer based in Sheffield.
         </h2>
       </div>
-      <div className="right-side">Right Side</div>
-      <Lottie options={defaultOptions} />
+      <div className="right-side">
+        <Lottie options={defaultOptions} height={400} width={400} />
+      </div>
       <ScrollTo
         destination={"about-section"}
         title={"About - Adrian Tut"}
