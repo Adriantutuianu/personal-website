@@ -15,6 +15,18 @@ const About = ({ setTitle }) => {
           building projects.
         </p>
         <p>I have started to learn HTML, CSS & SCSS, JAVASCRIPT and REACT.</p>
+        <p>Some of the courses that I have done:</p>
+        <ul className="courses">
+          <li>HTML Advanced Course - Programming Hub</li>
+          <li>CSS Course - Programming Hub</li>
+          <li>Javascript Advanced Course - ProgrammingHub</li>
+          <li>Javascript 30 - Wes Bos</li>
+          <li>The Complete Javascript - From Zero To Expert - Udemy</li>
+          <li>React Development - Programming Hub</li>
+          <li>Learning React.js- LinkedIn</li>
+          <li>React.js Essential Training- LinkedIn</li>
+          <li>React Hooks - LinkedIn</li>
+        </ul>
         <p>
           You can see the progress of my journey on Github and on LinkedIn all
           certificates that I gained.
