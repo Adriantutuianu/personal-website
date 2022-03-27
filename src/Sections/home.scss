@@ -3,7 +3,8 @@
   padding-top: var(--header-bar-height);
   background: var(--primary-color);
   color: var(--fourth-color);
-  .left-side {
+
+  .right-side {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,7 +18,9 @@
       margin-bottom: 40%;
     }
   }
-  .right-side {
+  .left-side {
     width: 48%;
+    display: flex;
+    align-items: center;
   }
 }

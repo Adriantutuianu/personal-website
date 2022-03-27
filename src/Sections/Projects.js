@@ -7,7 +7,7 @@ const Projects = ({ setTitle }) => {
   return (
     <Element name="projects-section" id="projects" className="section">
       {" "}
-      <ul className="projects-grid">
+      <ul className="projects-grid content-wrap">
         <li class="item item1">Item 1</li>
         <li class="item item2">Item 2</li>
         <li class="item item3">Item 3</li>

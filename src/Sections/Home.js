@@ -19,13 +19,13 @@ const Home = ({ setTitle }) => {
     <Element name="home-section" id="home" className="section">
       {" "}
       <div className="left-side">
+        <Lottie options={defaultOptions} height={400} width={400} />
+      </div>
+      <div className="right-side">
         <h1 className="title">Hi, I'm Adrian.</h1>
         <h2 className="sub-title">
           A passionate web developer based in Sheffield.
         </h2>
-      </div>
-      <div className="right-side">
-        <Lottie options={defaultOptions} height={400} width={400} />
       </div>
       <ScrollTo
         destination={"about-section"}
