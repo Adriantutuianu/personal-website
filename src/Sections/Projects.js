@@ -2,13 +2,22 @@ import React from "react";
 import "./projects.scss";
 import { Element } from "react-scroll";
 import ScrollTo from "../components/ScrollTo";
+import background from "../icons/test.jpg";
 
 const Projects = ({ setTitle }) => {
   return (
     <Element name="projects-section" id="projects" className="section">
       {" "}
       <ul className="projects-grid content-wrap">
-        <li class="item item1">Item 1</li>
+        <li
+          class="item item1"
+          style={{
+            backgroundImage: `url(${background})`,
+            backgroundSize: "cover",
+          }}
+        >
+          Item 1
+        </li>
         <li class="item item2">Item 2</li>
         <li class="item item3">Item 3</li>
         <li class="item item4">Item 4</li>
