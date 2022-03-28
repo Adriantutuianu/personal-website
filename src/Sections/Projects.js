@@ -15,13 +15,53 @@ const Projects = ({ setTitle }) => {
             backgroundSize: "cover",
           }}
         >
-          Item 1
+          Project title 1
         </li>
-        <li class="item item2">Item 2</li>
-        <li class="item item3">Item 3</li>
-        <li class="item item4">Item 4</li>
-        <li class="item item5">Item 5</li>
-        <li class="item item6">Item 6</li>
+        <li
+          style={{
+            backgroundImage: "url(./project-images/test.jpg)",
+            backgroundSize: "cover",
+          }}
+          class="item item2"
+        >
+          Project title 2
+        </li>
+        <li
+          style={{
+            backgroundImage: "url(./project-images/test.jpg)",
+            backgroundSize: "cover",
+          }}
+          class="item item3"
+        >
+          Project title 3
+        </li>
+        <li
+          style={{
+            backgroundImage: "url(./project-images/test.jpg)",
+            backgroundSize: "cover",
+          }}
+          class="item item4"
+        >
+          Project title 4
+        </li>
+        <li
+          style={{
+            backgroundImage: "url(./project-images/test.jpg)",
+            backgroundSize: "cover",
+          }}
+          class="item item5"
+        >
+          Project title 5
+        </li>
+        <li
+          style={{
+            backgroundImage: "url(./project-images/test.jpg)",
+            backgroundSize: "cover",
+          }}
+          class="item item6"
+        >
+          Project title 6
+        </li>
       </ul>
       <ScrollTo
         destination={"contact-section"}
