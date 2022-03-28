@@ -2,7 +2,6 @@ import React from "react";
 import "./projects.scss";
 import { Element } from "react-scroll";
 import ScrollTo from "../components/ScrollTo";
-import background from "../icons/test.jpg";
 
 const Projects = ({ setTitle }) => {
   return (
@@ -12,7 +11,7 @@ const Projects = ({ setTitle }) => {
         <li
           class="item item1"
           style={{
-            backgroundImage: `url(${background})`,
+            backgroundImage: "url(./project-images/test.jpg)",
             backgroundSize: "cover",
           }}
         >
