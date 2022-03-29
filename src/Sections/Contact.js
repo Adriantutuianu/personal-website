@@ -4,8 +4,18 @@ import { Element } from "react-scroll";
 import { ReactComponent as MailImage } from "../icons/mail.svg";
 import { ReactComponent as LinkedInImage } from "../icons/linkedin.svg";
 import { ReactComponent as GithubImage } from "../icons/github.svg";
+import Lottie from "react-lottie";
+import * as contactLetterGreen from "../icons/96614-contact-letter-green.json";
 
 const Contact = () => {
+  const contactLetter = {
+    loop: true,
+    autoplay: true,
+    animationData: contactLetterGreen,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
   return (
     <Element name="contact-section" id="contact" className="section">
       <h1>
@@ -43,6 +53,12 @@ const Contact = () => {
           <span>/adriantutuianu</span>
         </a>
       </div>
+      <Lottie
+        className="contact-letter"
+        options={contactLetter}
+        height={200}
+        width={200}
+      />
     </Element>
   );
 };
