@@ -2,8 +2,19 @@ import React from "react";
 import "./about.scss";
 import { Element } from "react-scroll";
 import ScrollTo from "../components/ScrollTo";
+import Lottie from "react-lottie";
+import * as animationAboutSection from "../icons/85222-about-aniamtion.json";
 
 const About = ({ setTitle }) => {
+  const animationAbout = {
+    loop: true,
+    autoplay: true,
+    animationData: animationAboutSection,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
+
   return (
     <Element name="about-section" id="about" className="section">
       <div className="content-wrap">
@@ -42,7 +53,10 @@ const About = ({ setTitle }) => {
             projects with positive people.
           </p>
         </div>
-        <div className="right-side">RIGHT SIDE</div>
+        <div className="right-side">
+          {" "}
+          <Lottie options={animationAbout} height={500} width={500} />
+        </div>
       </div>
       <ScrollTo
         destination={"projects-section"}
