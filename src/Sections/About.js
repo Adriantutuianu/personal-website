@@ -55,7 +55,7 @@ const About = ({ setTitle }) => {
         </div>
         <div className="right-side">
           {" "}
-          <Lottie options={animationAbout} height={500} width={500} />
+          <Lottie options={animationAbout} height={500} width={439} />
         </div>
       </div>
       <ScrollTo
