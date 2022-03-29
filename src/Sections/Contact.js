@@ -54,7 +54,7 @@ const Contact = () => {
         </a>
       </div>
       <div className="contact-letter">
-        <Lottie options={contactLetter} height={200} width={200} />
+        <Lottie options={contactLetter} height={150} width={150} />
       </div>
     </Element>
   );
