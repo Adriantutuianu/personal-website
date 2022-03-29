@@ -53,12 +53,9 @@ const Contact = () => {
           <span>/adriantutuianu</span>
         </a>
       </div>
-      <Lottie
-        className="contact-letter"
-        options={contactLetter}
-        height={200}
-        width={200}
-      />
+      <div className="contact-letter">
+        <Lottie options={contactLetter} height={200} width={200} />
+      </div>
     </Element>
   );
 };
