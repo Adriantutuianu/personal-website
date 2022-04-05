@@ -4,6 +4,32 @@ import { Element } from "react-scroll";
 import ScrollTo from "../components/ScrollTo";
 
 const Projects = ({ setTitle }) => {
+  const project = [
+    {
+      name: "Product Management App",
+      url: "https://product-management-app.adriantut.dev",
+    },
+    {
+      name: "Shopping List",
+      url: "https://shopping-list.adriantut.dev",
+    },
+    {
+      name: "Random Quotes",
+      url: "https://random-quotes.adriantut.dev",
+    },
+    {
+      name: "Forkify App",
+      url: "https://forkify-app.adriantut.dev",
+    },
+    {
+      name: "Html Css App",
+      url: "https://html-css-app.adriantut.dev",
+    },
+    {
+      name: "Calculator App",
+      url: "https://calculator-app.adriantut.dev",
+    },
+  ];
   return (
     <Element name="projects-section" id="projects" className="section">
       {" "}
