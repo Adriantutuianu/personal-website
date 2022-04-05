@@ -9,34 +9,43 @@ const Projects = ({ setTitle }) => {
       name: "Product Management App",
       imageName: "product-management",
       url: "https://product-management-app.adriantut.dev",
+      tags: "React, Ant Design, Fetch API",
     },
     {
       name: "Shopping List",
       imageName: "shopping-list",
       url: "https://shopping-list.adriantut.dev",
+      tags: "React, Ant Design",
     },
     {
       name: "Random Quotes",
       imageName: "random-quotes",
       url: "https://random-quotes.adriantut.dev",
+      tags: "React, Fetch API",
+    },
+    {
+      name: "Personal Website",
+      imageName: "personal-website",
+      url: "https://personal-website.adriantut.dev",
+      tags: "React, Scss, Lottie",
     },
     {
       name: "Forkify App",
       imageName: "forkify-app",
-
       url: "https://forkify-app.adriantut.dev",
+      tags: "JavaScript, Scss",
     },
     {
       name: "Html & Css Homepage",
       imageName: "homepage",
-
       url: "https://html-css-app.adriantut.dev",
+      tags: "Html, Css",
     },
     {
       name: "Calculator App",
       imageName: "calculator",
-
       url: "https://calculator-app.adriantut.dev",
+      tags: "JavaScript, Html, Css",
     },
   ];
 
@@ -50,6 +59,7 @@ const Projects = ({ setTitle }) => {
       }}
     >
       {project.name}
+      <span className="tags">{project.tags}</span>
     </li>
   ));
 
