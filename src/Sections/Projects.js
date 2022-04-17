@@ -7,45 +7,45 @@ const Projects = ({ setTitle }) => {
   const projects = [
     {
       name: "Product Management App",
-      imageName: "product-management",
       url: "https://product-management-app.adriantut.dev",
+      githubUrl: "https://github.com/Adriantutuianu/product-management-app",
       tags: "React, Ant Design, Fetch API",
       description: "Description Project 1",
     },
     {
       name: "Shopping List",
-      imageName: "shopping-list",
       url: "https://shopping-list.adriantut.dev",
+      githubUrl: "https://github.com/Adriantutuianu/shopping-list-app",
       tags: "React, Ant Design",
     },
     {
       name: "Random Quotes",
-      imageName: "random-quotes",
       url: "https://random-quotes.adriantut.dev",
+      githubUrl: "https://github.com/Adriantutuianu/random-quotes-project",
       tags: "React, Fetch API",
     },
     {
       name: "Personal Website",
-      imageName: "personal-website",
       url: "https://personal-website.adriantut.dev",
+      githubUrl: "https://github.com/Adriantutuianu/personal-website",
       tags: "React, Scss, Lottie",
     },
     {
       name: "Forkify App",
-      imageName: "forkify-app",
       url: "https://forkify-app.adriantut.dev",
+      githubUrl: "https://github.com/Adriantutuianu/Forkify-App",
       tags: "JavaScript, Scss",
     },
     {
       name: "Html & Css Homepage",
-      imageName: "homepage",
       url: "https://html-css-app.adriantut.dev",
+      githubUrl: "https://github.com/Adriantutuianu/HTML-CSS-June-2021",
       tags: "Html, Css",
     },
     {
       name: "Calculator App",
-      imageName: "calculator",
       url: "https://calculator-app.adriantut.dev",
+      githubUrl: "https://github.com/Adriantutuianu/Calculator-app-JavaScript",
       tags: "JavaScript, Html, Css",
     },
   ];
