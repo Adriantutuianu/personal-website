@@ -72,15 +72,17 @@ const Projects = ({ setTitle }) => {
         backgroundSize: "cover",
       }}
     >
-      <span className="name">{project.name}</span>
-      <span className="tags">{project.tags}</span>
-      <a href={project.url} className="link">
-        View Project
-      </a>
-      <a href={project.githubUrl} className="link">
-        View Code
-      </a>
-      <span className="description">{project.description}</span>
+      <div className="item-content">
+        <span className="name">{project.name}</span>
+        <span className="description">{project.description}</span>
+        <span className="tags">{project.tags}</span>
+        <a href={project.url} className="link">
+          View Project
+        </a>
+        <a href={project.githubUrl} className="link">
+          View Code
+        </a>
+      </div>
       <div className="background"></div>
     </li>
   ));
