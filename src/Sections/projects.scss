@@ -29,7 +29,9 @@
         opacity: 0.2;
       }
     }
-
+    &.item-0 {
+      grid-column: 1/-1;
+    }
     .link,
     .name,
     .tags {
