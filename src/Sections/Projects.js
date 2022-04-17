@@ -10,6 +10,7 @@ const Projects = ({ setTitle }) => {
       imageName: "product-management",
       url: "https://product-management-app.adriantut.dev",
       tags: "React, Ant Design, Fetch API",
+      description: "Description Project 1",
     },
     {
       name: "Shopping List",
@@ -60,6 +61,9 @@ const Projects = ({ setTitle }) => {
     >
       {project.name}
       <span className="tags">{project.tags}</span>
+      <a href={project.url} className="link">
+        View
+      </a>
     </li>
   ));
 
