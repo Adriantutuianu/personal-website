@@ -52,18 +52,19 @@ const Projects = ({ setTitle }) => {
 
   const projectsList = projects.map((project, index) => (
     <li
-      className={`item item${index}`}
+      className={`item item-${index}`}
       key={index}
       style={{
         backgroundImage: `url(./project-images/${project.imageName})`,
         backgroundSize: "cover",
       }}
     >
-      {project.name}
+      <span className="name">{project.name}</span>
       <span className="tags">{project.tags}</span>
       <a href={project.url} className="link">
         View
       </a>
+      <div className="background"></div>
     </li>
   ));
 
