@@ -27,7 +27,7 @@
 
     &:hover {
       .background {
-        opacity: 0.2;
+        opacity: 1;
       }
     }
     &.item-0 {
@@ -44,6 +44,15 @@
       .description {
         text-align: center;
       }
+      .tags {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        border: 1px solid black;
+        padding: 3px 10px;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
     }
 
     .background {
@@ -53,7 +62,7 @@
       top: 0;
       left: 0;
       background-color: black;
-      opacity: 1;
+      opacity: 0;
       z-index: 1;
       transition: 0.2s ease-in;
     }
