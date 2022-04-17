@@ -10,43 +10,56 @@ const Projects = ({ setTitle }) => {
       url: "https://product-management-app.adriantut.dev",
       githubUrl: "https://github.com/Adriantutuianu/product-management-app",
       tags: "React, Ant Design, Fetch API",
-      description: "Description Project 1",
+      description:
+        "Single page application built in React, that will include CRUD operations and will have the following functionalities: Routing, Authentication, Pagination, Filters & sorting.",
     },
     {
       name: "Shopping List",
       url: "https://shopping-list.adriantut.dev",
       githubUrl: "https://github.com/Adriantutuianu/shopping-list-app",
       tags: "React, Ant Design",
+      description:
+        "A simple react application where you can add or delete items in your shopping list.",
     },
     {
       name: "Random Quotes",
       url: "https://random-quotes.adriantut.dev",
       githubUrl: "https://github.com/Adriantutuianu/random-quotes-project",
       tags: "React, Fetch API",
+      description:
+        "React application that will use built in Fetch Api to retrieve random quotes. Used React Hooks and will generate quote on load of the app.",
     },
     {
       name: "Personal Website",
       url: "https://personal-website.adriantut.dev",
       githubUrl: "https://github.com/Adriantutuianu/personal-website",
       tags: "React, Scss, Lottie",
+      description:
+        "React SPA that includes portofolio projects. Used Lottie for animations.",
     },
     {
       name: "Forkify App",
       url: "https://forkify-app.adriantut.dev",
       githubUrl: "https://github.com/Adriantutuianu/Forkify-App",
       tags: "JavaScript, Scss",
+      description:
+        "Responsive page on which I used HTML5, CSS, SCSS and JavaScript.",
     },
     {
       name: "Html & Css Homepage",
       url: "https://html-css-app.adriantut.dev",
       githubUrl: "https://github.com/Adriantutuianu/HTML-CSS-June-2021",
       tags: "Html, Css",
+      description:
+        "Responsive homepage mockup with HTML5 and CSS3. For layout I used CSS Grid and CSS Flex.",
     },
     {
       name: "Calculator App",
       url: "https://calculator-app.adriantut.dev",
       githubUrl: "https://github.com/Adriantutuianu/Calculator-app-JavaScript",
       tags: "JavaScript, Html, Css",
+      description:
+        "A calculator application built with HTML5, CSS3 and JavaScript.",
     },
   ];
 
@@ -67,6 +80,7 @@ const Projects = ({ setTitle }) => {
       <a href={project.githubUrl} className="link">
         View Code
       </a>
+      <span className="description">{project.description}</span>
       <div className="background"></div>
     </li>
   ));
