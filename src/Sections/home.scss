@@ -24,3 +24,20 @@
     align-items: center;
   }
 }
+@media screen and (max-width: 992px) {
+  #home {
+    height: 100%;
+    min-height: 100vh;
+
+    flex-wrap: wrap;
+    height: 100%;
+    .left-side {
+      width: 100%;
+      padding: 50px 0 70px 0;
+    }
+    .right-side {
+      width: 100%;
+      padding: 50px 0 70px 0;
+    }
+  }
+}
