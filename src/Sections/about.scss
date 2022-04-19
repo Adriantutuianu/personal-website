@@ -35,7 +35,7 @@
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 992px) {
   #about {
     height: 100%;
     min-height: 100vh;
@@ -51,10 +51,16 @@
       }
     }
   }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 768px) {
     #about {
       div[aria-label="animation"] {
         display: none;
+      }
+      .content-wrap {
+        height: 90vh;
+        .right-side {
+          padding: 0;
+        }
       }
     }
   }
