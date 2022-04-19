@@ -16,3 +16,43 @@
     }
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .header {
+    .content-wrap {
+      .navigation-menu {
+        width: 40%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    .content-wrap {
+      .navigation-menu {
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    .content-wrap {
+      .navigation-menu {
+        width: 60%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    .content-wrap {
+      .navigation-menu {
+        width: 70%;
+      }
+    }
+  }
+}
