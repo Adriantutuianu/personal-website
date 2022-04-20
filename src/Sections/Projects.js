@@ -99,10 +99,20 @@ const Projects = ({ setTitle }) => {
         <span className="name">{project.name}</span>
         <span className="description">{project.description}</span>
         <span className="tags">{project.tags}</span>
-        <a href={project.url} className="link project-link">
+        <a
+          href={project.url}
+          target="_blank"
+          rel="noreferrer"
+          className="link project-link"
+        >
           View Project
         </a>
-        <a href={project.githubUrl} className="link github-link">
+        <a
+          href={project.githubUrl}
+          target="_blank"
+          rel="noreferrer"
+          className="link github-link"
+        >
           View Code
         </a>
       </div>
