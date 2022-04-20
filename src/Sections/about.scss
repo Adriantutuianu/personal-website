@@ -51,17 +51,26 @@
       }
     }
   }
-  @media screen and (max-width: 768px) {
-    #about {
-      div[aria-label="animation"] {
-        display: none;
+}
+@media screen and (max-width: 768px) {
+  #about {
+    div[aria-label="animation"] {
+      display: none;
+    }
+    .content-wrap {
+      height: 90vh;
+      .right-side {
+        padding: 0;
       }
-      .content-wrap {
-        height: 90vh;
-        .right-side {
-          padding: 0;
-        }
-      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #about {
+    .content-wrap {
+      height: 100%;
+      padding-bottom: 60px;
     }
   }
 }

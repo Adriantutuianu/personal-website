@@ -55,6 +55,7 @@
   #home {
     .left-side {
       padding: 0;
+
       div[aria-label="animation"] {
         height: 300px !important;
         width: 300px !important;
@@ -62,6 +63,16 @@
     }
     .right-side {
       padding: 0;
+      .text-wrap {
+        .title {
+          font-size: 24px;
+          text-align: center;
+        }
+        .sub-title {
+          font-size: 18px;
+          text-align: center;
+        }
+      }
     }
   }
 }
