@@ -2,6 +2,7 @@ import React from "react";
 import "./projects.scss";
 import { Element } from "react-scroll";
 import ScrollTo from "../components/ScrollTo";
+import Particles from "react-particles-js";
 
 const Projects = ({ setTitle }) => {
   const projects = [
@@ -63,6 +64,28 @@ const Projects = ({ setTitle }) => {
     },
   ];
 
+  const params = {
+    particles: {
+      number: {
+        value: 150,
+        density: {
+          enable: false,
+        },
+      },
+      size: {
+        value: 3,
+        random: true,
+      },
+      move: {
+        direction: "bottom",
+        out_mode: "out",
+      },
+      line_linked: {
+        enable: false,
+      },
+    },
+  };
+
   const projectsList = projects.map((project, index) => (
     <li
       className={`item item-${index}`}
@@ -91,6 +114,7 @@ const Projects = ({ setTitle }) => {
     <Element name="projects-section" id="projects" className="section">
       {" "}
       <ul className="projects-grid content-wrap">{projectsList}</ul>
+      <Particles className="particles" params={params} />
       <ScrollTo
         destination={"contact-section"}
         title={"Contact - Adrian Tut"}
