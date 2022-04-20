@@ -91,6 +91,12 @@ const Projects = ({ setTitle }) => {
     <Element name="projects-section" id="projects" className="section">
       {" "}
       <ul className="projects-grid content-wrap">{projectsList}</ul>
+      <div class="slider-box"></div>
+      <ul id="scene" data-friction-x="0.03" data-friction-y="0.05">
+        <li class="layer" id="layer-3" data-depth="0.15">
+          <div class="img" id="img-3"></div>
+        </li>
+      </ul>
       <ScrollTo
         destination={"contact-section"}
         title={"Contact - Adrian Tut"}
