@@ -116,7 +116,7 @@ const Projects = ({ setTitle }) => {
           View Code
         </a>
       </div>
-      <div className="background border"></div>
+      <div className="background"></div>
     </li>
   ));
 
