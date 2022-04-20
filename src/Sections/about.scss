@@ -74,3 +74,12 @@
     }
   }
 }
+
+@media screen and (max-height: 1200px) {
+  #about {
+    div[aria-label="animation"] {
+      width: 350px;
+      height: 400px;
+    }
+  }
+}
