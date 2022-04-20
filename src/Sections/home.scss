@@ -38,7 +38,6 @@
   #home {
     height: 100%;
     min-height: 100vh;
-
     flex-wrap: wrap;
     height: 100%;
     .left-side {
@@ -48,6 +47,21 @@
     .right-side {
       width: 100%;
       padding: 50px 0 70px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #home {
+    .left-side {
+      padding: 0;
+      div[aria-label="animation"] {
+        height: 300px !important;
+        width: 300px !important;
+      }
+    }
+    .right-side {
+      padding: 0;
     }
   }
 }

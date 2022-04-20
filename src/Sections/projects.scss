@@ -128,5 +128,8 @@
     .item {
       min-height: 250px;
     }
+    .projects-grid {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
   }
 }
