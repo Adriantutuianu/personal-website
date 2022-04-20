@@ -5,6 +5,7 @@ import ScrollTo from "../components/ScrollTo";
 import Lottie from "react-lottie";
 import * as animationData from "../icons/99312-developer-skills.json";
 import * as smartBoy from "../icons/21045-smartboy-2.json";
+import Particles from "react-particles-js";
 
 const Home = ({ setTitle }) => {
   const defaultOptions = {
@@ -25,6 +26,28 @@ const Home = ({ setTitle }) => {
     },
   };
 
+  const params = {
+    particles: {
+      number: {
+        value: 150,
+        density: {
+          enable: false,
+        },
+      },
+      size: {
+        value: 3,
+        random: true,
+      },
+      move: {
+        direction: "bottom",
+        out_mode: "out",
+      },
+      line_linked: {
+        enable: false,
+      },
+    },
+  };
+
   return (
     <Element name="home-section" id="home" className="section">
       {" "}
@@ -40,6 +63,7 @@ const Home = ({ setTitle }) => {
           </h2>
         </div>
       </div>
+      <Particles className="particles" params={params} />
       <ScrollTo
         destination={"about-section"}
         title={"About - Adrian Tut"}
