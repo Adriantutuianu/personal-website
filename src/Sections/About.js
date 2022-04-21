@@ -26,7 +26,7 @@ const About = ({ setTitle }) => {
             - decided and committed to absorb as much information as I can about
             building projects.
           </p>
-          <p>I have started to learn HTML, CSS & SCSS, JAVASCRIPT and REACT.</p>
+          <p>I started to learn HTML, CSS & SCSS, JAVASCRIPT and REACT.</p>
           <p>Some of the courses that I have done:</p>
           <ul className="courses">
             <li>HTML Advanced Course - Programming Hub</li>

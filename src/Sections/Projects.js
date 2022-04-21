@@ -8,7 +8,7 @@ const Projects = ({ setTitle }) => {
   const projects = [
     {
       name: "Product Management App",
-      url: "https://product-management-app.adriantut.dev",
+      url: "https://products.adriantut.dev",
       githubUrl: "https://github.com/Adriantutuianu/product-management-app",
       tags: "React, Ant Design, Fetch API",
       description:
@@ -16,7 +16,7 @@ const Projects = ({ setTitle }) => {
     },
     {
       name: "Shopping List",
-      url: "https://shopping-list.adriantut.dev",
+      url: "https://shopping.adriantut.dev",
       githubUrl: "https://github.com/Adriantutuianu/shopping-list-app",
       tags: "React, Ant Design",
       description:
@@ -24,7 +24,7 @@ const Projects = ({ setTitle }) => {
     },
     {
       name: "Random Quotes",
-      url: "https://random-quotes.adriantut.dev",
+      url: "https://quotes.adriantut.dev",
       githubUrl: "https://github.com/Adriantutuianu/random-quotes-project",
       tags: "React, Fetch API",
       description:
@@ -32,7 +32,7 @@ const Projects = ({ setTitle }) => {
     },
     {
       name: "Personal Website",
-      url: "https://personal-website.adriantut.dev",
+      url: "https://adriantut.dev",
       githubUrl: "https://github.com/Adriantutuianu/personal-website",
       tags: "React, Scss, Lottie",
       description:
@@ -40,7 +40,7 @@ const Projects = ({ setTitle }) => {
     },
     {
       name: "Forkify App",
-      url: "https://forkify-app.adriantut.dev",
+      url: "https://forkify.adriantut.dev",
       githubUrl: "https://github.com/Adriantutuianu/Forkify-App",
       tags: "JavaScript, Scss",
       description:
@@ -48,7 +48,7 @@ const Projects = ({ setTitle }) => {
     },
     {
       name: "Html & Css Homepage",
-      url: "https://html-css-app.adriantut.dev",
+      url: "https://mockup.adriantut.dev",
       githubUrl: "https://github.com/Adriantutuianu/HTML-CSS-June-2021",
       tags: "Html, Css",
       description:
@@ -56,7 +56,7 @@ const Projects = ({ setTitle }) => {
     },
     {
       name: "Calculator App",
-      url: "https://calculator-app.adriantut.dev",
+      url: "https://calculator.adriantut.dev",
       githubUrl: "https://github.com/Adriantutuianu/Calculator-app-JavaScript",
       tags: "JavaScript, Html, Css",
       description:
