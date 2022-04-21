@@ -40,13 +40,13 @@ const About = ({ setTitle }) => {
             <li>React Hooks - LinkedIn</li>
           </ul>
           <p>
-            You can see the progress of my journey on Github and on LinkedIn all
-            certificates that I gained.
+            On Github you can see the day by day progress and on LinkedIn all
+            certificates that I gained since I started to learn coding.
           </p>
           <p>
-            In my spare time I like DIY, swimming, outdoor activities , travel
-            and building my own projects. I am a family person and father of a 3
-            years old son.
+            In my spare time I like DIY, swimming, outdoor activities, travel
+            and building my own projects. I am a family person and father of one
+            toddler.
           </p>
           <p>
             Interested in the entire frontend spectrum and working on ambitious

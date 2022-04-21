@@ -57,7 +57,7 @@ const Home = ({ setTitle }) => {
       <div className="right-side">
         <Lottie options={defaultAnimation} height={100} width={100} />
         <div className="text-wrap">
-          <h1 className="title">Hi, I'm Adrian.</h1>
+          <h1 className="title">Hi, I'm Adrian</h1>
           <h2 className="sub-title">
             A passionate web developer based in Sheffield.
           </h2>
