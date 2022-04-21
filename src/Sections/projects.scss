@@ -81,6 +81,7 @@
         border: 1px solid black;
         padding: 3px 10px;
         font-size: 12px;
+        border-radius: 3px;
       }
       .link {
         text-decoration: none;
@@ -127,6 +128,13 @@
   #projects {
     .item {
       min-height: 250px;
+      .item-content {
+        .tags {
+          left: auto;
+          bottom: 15px;
+          padding: 3px 7px;
+        }
+      }
     }
     .projects-grid {
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
