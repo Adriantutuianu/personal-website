@@ -24,7 +24,7 @@ const Contact = () => {
       <div className="contact-wrap">
         <a
           className="item item--mail"
-          href="mailto:office@yahoo.com?subject=Contact Adrian"
+          href="mailto:hello@adriantut.dev?subject=Contact Adrian"
           title="Email Adrian at office@yahoo.com"
           target="_blank"
           rel="noreferrer"
