@@ -25,12 +25,12 @@ const Contact = () => {
         <a
           className="item item--mail"
           href="mailto:hello@adriantut.dev?subject=Contact Adrian"
-          title="Email Adrian at office@yahoo.com"
+          title="Email Adrian at hello@adriantut.dev"
           target="_blank"
           rel="noreferrer"
         >
           <MailImage />
-          <span>Contact Adrian now</span>
+          <span>Email Adrian now</span>
         </a>
         <a
           className="item item--linkedin"
