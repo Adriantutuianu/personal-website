@@ -1,5 +1,6 @@
 #projects {
   background: var(--primary-color);
+  // margin-top: 80px;
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -9,6 +10,7 @@
     height: 80%;
     max-width: 1600px;
     margin: 50px auto;
+    margin-top: 80px;
     padding: 0 10px;
     list-style-type: none;
   }
